@@ -11,8 +11,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_margin="5dp"
+        android:onClick="toStudySelect"
         android:layout_marginBottom="25dp"
-        android:onClick="toChapterSelect"
         android:text="@string/study"
         android:textColor="#394857" />
 

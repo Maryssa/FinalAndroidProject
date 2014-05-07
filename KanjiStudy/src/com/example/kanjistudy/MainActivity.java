@@ -3,6 +3,7 @@ package com.example.kanjistudy;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -49,6 +50,12 @@ public class MainActivity extends ActionBarActivity {
 	      return super.onOptionsItemSelected(item);
 	  }
 	}
+		
+		public void toStudySelect(View view)
+		{
+			Intent moveToStudySelect = new Intent(this, ExpandableChapterSelect.class);
+			startActivity(moveToStudySelect);
+		}
 
 	/**
 	 * A placeholder fragment containing a simple view.

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-	<ExpandableListView
-	    android:id="@+id/chapter_select"
-	    android:layout_width="match_parent"
-	    android:layout_height="match_parent" />    
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:text="@string/hello_world"
+    android:textSize="20dp"
+    android:textColor="#003399"
+    android:textStyle="bold">
+    
 
-</menu>
+</CheckedTextView>
