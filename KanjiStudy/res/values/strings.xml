@@ -7,5 +7,6 @@
     <string name="chapter_select">"Chapters</string>
     <string name="kanji">Kanji</string>
     <string name="vocabulary">Vocabulary</string>
+    <string name="main_menu">Main Menu</string>
 
 </resources>
