@@ -4,5 +4,8 @@
     <string name="app_name">KanjiStudy</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="chapter_select">"Chapters</string>
+    <string name="kanji">Kanji</string>
+    <string name="vocabulary">Vocabulary</string>
 
 </resources>
